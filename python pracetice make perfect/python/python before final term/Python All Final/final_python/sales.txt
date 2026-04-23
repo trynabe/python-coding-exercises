@@ -1,0 +1,5 @@
+P101-Laptop,35000,5
+P102-Mouse,500,20
+P203-Monitor,12000,3
+L404-Keyboard,1500,10
+L405-Speaker,2500,7

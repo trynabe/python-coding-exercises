@@ -1,0 +1,4 @@
+Name,Math,Physics,Chemistry
+Alice,85,90,78
+Bob,70,88,82
+Charlie,95,92,87

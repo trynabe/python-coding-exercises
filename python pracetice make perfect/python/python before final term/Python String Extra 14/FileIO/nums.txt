@@ -1,0 +1,6 @@
+10 20 -5
+abc 15 xyz
+-30 25
+42
+no numbers here
+-10 -20 5

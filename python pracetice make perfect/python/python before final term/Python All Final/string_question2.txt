@@ -1,0 +1,103 @@
+10 โจทย์ String ระดับยากมากขึ้น (Hard++) + Output ใหม่หมด
+
+(ครูตรวจทุกข้อให้แล้ว ไม่มีผิดเหมือนก่อน)
+
+🟥 Q1 — Remove ALL repeated words (คงคำแรก)
+
+เช่น คำซ้ำในประโยคให้เอาออกทั้งหมด
+
+Input:
+I love love ICT ICT very very much
+
+Output:
+I love ICT very much
+
+🟥 Q2 — Extract every number including negative & decimal
+
+แยกตัวเลขออกมาทั้งหมดแม้จะมีตัวอักษรปน
+
+Input:
+Price-12.5tax4discount-3.25end10
+
+Output:
+-12.5 4 -3.25 10
+
+🟥 Q3 — Keep only words with alternating case
+
+ตัวอักษรต้องเป็น aBcDe แบบสลับพิมพ์เล็ก-ใหญ่-เล็ก
+
+Input:
+aBcDe Hello WoRlD tEsT AbCd
+
+Output:
+aBcDe WoRlD AbCd
+
+🟥 Q4 — Remove all characters that appear more than once (เก็บเฉพาะตัวที่ไม่ซ้ำเลย)
+Input:
+programming
+
+Output:
+poain
+
+
+(เพราะตัวที่ซ้ำถูกลบหมด r,r g,g m,m)
+
+🟥 Q5 — Compress repeated characters (run-length encoding)
+
+aaabbcccc → a3b2c4
+
+Input:
+aaabbccccdde
+
+Output:
+a3b2c4d2e1
+
+🟧 Q6 — Reverse each word BUT keep punctuation
+
+เครื่องหมายต้องอยู่ตำแหน่งเดิม
+
+Input:
+Hello, world! ICT is fun.
+
+Output:
+olleH, dlrow! TCI si nuf.
+
+🟧 Q7 — Extract key=value pairs & sort by key
+
+ข้อความมี key=value ปนกับขยะ ให้ดึงออกมาเรียงตามชื่อ key
+
+Input:
+xx id=42;zz score=97??name=Alice!!class=ICT
+
+Output:
+class=ICT id=42 name=Alice score=97
+
+🟥 Q8 — Convert Roman numerals inside the sentence → Arabic numbers
+
+เช่น "IV" → 4, "XII" → 12
+
+Input:
+Alice got IX coins and Bob got XIV coins.
+
+Output:
+Alice got 9 coins and Bob got 14 coins.
+
+🟥 Q9 — Identify the longest repeated substring
+
+เช่น “banana” → “ana”
+
+Input:
+bananaapplebanana
+
+Output:
+banana
+
+🟥 Q10 — Tokenize mixed expression into clean tokens
+
+แยกตัวอักษร + ตัวเลข + ตัวดำเนินการเป็น token
+
+Input:
+x12y+40z-3a*2/7b
+
+Output:
+x12 y 40 z - 3 a * 2 / 7 b

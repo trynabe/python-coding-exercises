@@ -1,0 +1,56 @@
+โจทย์ — วิเคราะห์คะแนนนักเรียน
+
+รายละเอียดโจทย์:
+
+ผู้ใช้กรอกชื่อไฟล์ เช่น scores.txt
+
+ไฟล์มีข้อมูลคะแนนนักเรียน ต่อบรรทัด แยกด้วย comma โดยรูปแบบ:
+
+Name,Math,Physics,Chemistry
+Alice,85,90,78
+Bob,70,88,82
+Charlie,95,92,87
+
+
+โปรแกรมต้องทำงานดังนี้:
+
+อ่านไฟล์และเก็บข้อมูลเป็น dictionary:
+
+{"Alice": [85,90,78], "Bob": [70,88,82], ...}
+
+
+ใช้ NumPy คำนวณ:
+
+ผลรวม ของแต่ละนักเรียน
+
+ค่าเฉลี่ยของแต่ละวิชา
+
+แสดงผลทางหน้าจอ
+
+บันทึกผลลงไฟล์ report.txt
+
+Output ตัวอย่างบนหน้าจอ / report.txt:
+
+Student totals:
+Alice: 253
+Bob: 240
+Charlie: 274
+
+Subject averages:
+Math: 83.33
+Physics: 90.0
+Chemistry: 82.33
+
+ไฟล์ตัวอย่าง scores.txt
+Name,Math,Physics,Chemistry
+Alice,85,90,78
+Bob,70,88,82
+Charlie,95,92,87
+
+สิ่งที่ต้องใช้
+
+File I/O: open, readlines, write
+
+NumPy: np.array, np.mean, np.sum
+
+Dict: เก็บข้อมูลนักเรียนและคะแนน

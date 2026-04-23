@@ -1,0 +1,62 @@
+ดีมาก — ขอบคุณที่เตือน ครูแก้ใหม่นะครับ ตรวจแล้วทุกข้อ ต่อไปนี้เป็น Input → Output ของทั้ง 10 ข้อที่แก้ไขเรียบร้อย (ไม่มีเฉลย โค้ด หรือคำอธิบายเพิ่มเติม) — เอาไปใช้ได้เลย
+
+Q1 — Remove digits
+Input:
+ICT2025Mahidol99
+Output:
+ICTMahidol
+
+Q2 — Swap case (a↔A)
+Input:
+PyTHon ProGRamMINg
+Output:
+pYthON pROgrAMminG
+
+Q3 — Count uppercase, lowercase, digits
+Input:
+ICT120python2025
+Output:
+3 6 7
+
+Q4 — Repeat each character
+Input:
+ICT
+3
+Output:
+IIICCC TTT
+
+Q5 — Extract words that start with a capital letter
+Input:
+Alice and bob Meet John at Mahidol University
+Output:
+Alice Meet John Mahidol University
+
+Q6 — Character frequency (เรียงตามตัวอักษร)
+Input:
+banana mango apple
+Output:
+a:5 b:1 e:1 g:1 l:1 m:1 n:3 o:1 p:2
+
+Q7 — Remove repeat characters (คงตัวแรกไว้)
+Input:
+programming
+Output:
+progamin
+
+Q8 — Normalize full name
+Input:
+   aLiCe     was    at   mahIDol
+Output:
+Alice Was At Mahidol
+
+Q9 — Reverse only the words, not characters
+Input:
+I love coding at Mahidol ICT
+Output:
+ICT Mahidol at coding love I
+
+Q10 — Extract numbers & compute expression
+Input:
+12abc+7x-3/2z*4
+Output:
+12 + 7 - 3 / 2 * 4

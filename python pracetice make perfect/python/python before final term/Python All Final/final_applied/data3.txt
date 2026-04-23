@@ -1,0 +1,4 @@
+ok
+error: not found
+loading
+error: crash

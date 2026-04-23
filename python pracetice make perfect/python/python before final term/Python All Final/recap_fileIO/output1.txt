@@ -1,0 +1,9 @@
+Student Total:
+Alice : 253
+Bob : 240
+Charlie : 274
+
+Subject averages:
+Math : 83.33
+Physics : 90.00
+Chemistry : 82.33
