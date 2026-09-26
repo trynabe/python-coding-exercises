@@ -1,11 +1,11 @@
-# Python Coding Exercises 🐍
+# Python Coding Exercises
 
 A collection of Python programs created while learning programming fundamentals.
 This repository is focused on practicing core Python concepts step by step.
 
 ---
 
-## 📚 Contents
+## Contents
 
 * Introduction to Programming
 * Python Basics
@@ -20,7 +20,7 @@ This repository is focused on practicing core Python concepts step by step.
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This repository is created for learning and practicing Python programming.
 It covers fundamental concepts and helps build a strong programming foundation.
@@ -29,6 +29,6 @@ It covers fundamental concepts and helps build a strong programming foundation.
 
 ---
 
-## 👤 Owner
+## Owner
 
 **trynabe**
